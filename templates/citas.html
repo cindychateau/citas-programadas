@@ -1,0 +1,71 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<div class="row">
+	<div class="col-sm-10">
+		<h1>¡Bienvenid@ {{username}}!</h1>
+	</div>
+	<div class="col-sm-2">
+		<a href="logout">Logout</a>
+	</div>
+</div>
+<div class="row">
+	<div class="col-sm-2 offset-sm-10">
+		<a href="crear"><button type="button" class="btn btn-primary">Nueva Cita</button></a>
+	</div>
+</div>
+<div class="row">
+	<div class="col-sm-12">
+		<h2>Citas Anteriores</h2>
+		<table class="table">
+			<thead>
+				<tr>
+					<th>Título</th>
+					<th>Descripción</th>
+					<th>Fecha y Hora</th>
+				</tr>
+			</thead>
+			<tbody>
+				{% for cp in citas_pasadas %}
+				<tr>
+					<td>{{cp.titulo}}</td>
+					<td>{{cp.descripcion}}</td>
+					<td>{{cp.fecha}}</td>
+				</tr>
+				{% endfor %}
+			</tbody>
+		</table>
+	</div>
+</div>
+<br>
+<div class="row">
+	<div class="col-sm-12">
+		<h2>Próximas Citas</h2>
+		<table class="table">
+			<thead>
+				<tr>
+					<th>Título</th>
+					<th>Descripción</th>
+					<th>Fecha y Hora</th>
+					<th>Acciones</th>
+				</tr>
+			</thead>
+			<tbody>
+				{% for pc in proximas_citas %}
+				<tr>
+					<td>{{pc.titulo}}</td>
+					<td>{{pc.descripcion}}</td>
+					<td>{{pc.fecha}}</td>
+					<td>
+						<a href="cita/{{pc._id}}"><button type="button" class="btn btn-info">Editar</button></a>
+						<button type="button" class="btn btn-danger eliminar" data-id="{{pc._id}}">Eliminar</button>
+					</td>
+				</tr>
+				{% endfor %}
+			</tbody>
+		</table>
+	</div>
+</div>
+<script src="{{url_for('static', filename='js/citas.js')}}"></script>
+{% endblock %}

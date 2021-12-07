@@ -1,0 +1,4 @@
+{"_id":{"$oid":"61aba01daf27793eed6cba41"},"nombre":"Miyagi Hernández","email":"miyagi@email.com","password":"b'SHVvMGxwYXc='"}
+{"_id":{"$oid":"61aba4e462dcba67e4a59b28"},"nombre":"Cynthia Castillo","email":"cynthia@email.com","password":"b'SHVvMGxwYXc='"}
+{"_id":{"$oid":"61abca1b5db7c3a7b45a5be7"},"nombre":"Juan","email":"juan@email.com","password":"b'SHVvMGxwYXc='"}
+{"_id":{"$oid":"61abcafb5db7c3a7b45a5beb"},"nombre":"Maria","email":"maria@email.com","password":"b'SHVvMGxwYXc='"}

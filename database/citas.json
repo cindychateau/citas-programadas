@@ -1,0 +1,6 @@
+{"_id":{"$oid":"61abbc40bc2cb02dce1486cd"},"titulo":"Dentista","descripcion":"Limpieza Dental","fecha":{"$date":"2021-12-04T13:10:00Z"},"userid":"61aba4e462dcba67e4a59b28"}
+{"_id":{"$oid":"61abbe2072d77e0d0ee3ee3e"},"titulo":"Costurera","descripcion":"Reparación de Vestido","fecha":{"$date":"2021-12-04T14:11:00Z"},"userid":"61aba4e462dcba67e4a59b28"}
+{"_id":{"$oid":"61abc1bd74dc63ed979c1f65"},"titulo":"Mecánico","descripcion":"Mantenimiento del Auto","fecha":{"$date":"2021-12-04T15:00:00Z"},"userid":"61aba01daf27793eed6cba41"}
+{"_id":{"$oid":"61abca515db7c3a7b45a5be8"},"titulo":"Cita con Pediatra","descripcion":"Revisión de rodilla","fecha":{"$date":"2021-12-04T18:00:00Z"},"userid":"61abca1b5db7c3a7b45a5be7"}
+{"_id":{"$oid":"61abca695db7c3a7b45a5be9"},"titulo":"Cita en 1 min","descripcion":"Esta es una cita en 1 minuto","fecha":{"$date":"2021-12-04T14:08:00Z"},"userid":"61abca1b5db7c3a7b45a5be7"}
+{"_id":{"$oid":"61abcb2f5db7c3a7b45a5bec"},"titulo":"Mecánico","descripcion":"Mantenimiento del Auto","fecha":{"$date":"2021-12-04T15:00:00Z"},"userid":"61aba4e462dcba67e4a59b28"}
